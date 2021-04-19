@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "staff-movement-nav-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/staffMovementNav/StaffMovementNavWebPart.js",
+          "manifest": "./src/webparts/staffMovementNav/StaffMovementNavWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "StaffMovementNavWebPartStrings": "lib/webparts/staffMovementNav/loc/{locale}.js"
+  }
+}
